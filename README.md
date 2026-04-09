@@ -4,7 +4,7 @@
 
 ---
 
-**Complete documentation library for Ptrade quantitative trading API** - Detailed comparative analysis and usage guide based on three main versions
+**Complete documentation library for Ptrade quantitative trading API** - Detailed comparative analysis and usage guide based on four main versions
 
 > **Recommended: SimTradeDesk** - A professional desktop environment designed for Ptrade strategy developers, providing Ptrade-compatible APIs, strategy editor, backtesting system, parameter optimizer, and more. No Python environment setup required - just download, install, and start using. For details, visit **[SimTradeDesk](http://github.com/kay-ou/SimTradeDesk)**.
 
@@ -18,8 +18,9 @@
 
 ## 🎯 Project Introduction
 
-Ptrade is a quantitative trading API platform developed by Hundsun Electronics, adopted and customized by multiple securities firms. This project organizes complete documentation for three main versions, including:
+Ptrade is a quantitative trading API platform developed by Hundsun Electronics, adopted and customized by multiple securities firms. This project organizes complete documentation for four main versions, including:
 
+- **Shanxi Securities version** (PBOXQT1.0V202202.03.000) - Latest full-featured version
 - **Dongguan Securities version** (PBOXQT1.0V202202.01.041) - Latest feature version
 - **Guosheng Securities version** (PBOXQT1.0V202202.01.016) - Stable standard version
 - **Community-maintained version** (PBOXQT1.0V202202.00.005) - Community-enhanced version
@@ -53,6 +54,7 @@ Select the corresponding version based on your brokerage environment:
 
 | Brokerage | Version | Features | Recommended Use |
 |-----------|---------|----------|----------------|
+| **Shanxi Securities** | V202 | Full features, latest version, Python 3.11 | Professional trading, complete API needs |
 | **Dongguan Securities** | V041 | Latest features, full support | Professional trading, requires latest features |
 | **Guosheng Securities** | V016 | Stable and reliable, standard features | Production environment, pursuing stability |
 | **Community-maintained** | V005 | Learning-friendly, rich examples | Learning research, feature exploration |
