@@ -4,7 +4,7 @@
 
 ---
 
-**Vollständige Dokumentationsbibliothek für die quantitative Handels-API von Ptrade** — Detaillierte Vergleichsanalyse und Nutzungsleitfaden basierend auf drei Hauptversionen
+**Vollständige Dokumentationsbibliothek für die quantitative Handels-API von Ptrade** — Detaillierte Vergleichsanalyse und Nutzungsleitfaden basierend auf vier Hauptversionen
 
 > **Empfohlen: SimTradeDesk** — Eine professionelle Desktop-Umgebung für Ptrade-Strategieentwickler mit PTrade-kompatiblen APIs, Strategie-Editor, Backtesting-System, Parameteroptimierung und mehr. Keine Python-Umgebung nötig — einfach herunterladen, installieren und loslegen. Details unter **[SimTradeDesk](http://github.com/kay-ou/SimTradeDesk)**.
 
@@ -18,8 +18,9 @@
 
 ## 🎯 Projektübersicht
 
-Ptrade ist eine von Hundsun Electronics entwickelte quantitative Handels-API-Plattform, die von mehreren Wertpapierfirmen übernommen und angepasst wird. Dieses Projekt dokumentiert drei Hauptversionen:
+Ptrade ist eine von Hundsun Electronics entwickelte quantitative Handels-API-Plattform, die von mehreren Wertpapierfirmen übernommen und angepasst wird. Dieses Projekt dokumentiert vier Hauptversionen:
 
+- **Shanxi Securities / Hundsun Research Platform** (PBOXQT1.0V202202.03.000) — Neueste Vollversion
 - **Dongguan Securities** (PBOXQT1.0V202202.01.041) — Neueste Funktionsversion
 - **Guosheng Securities** (PBOXQT1.0V202202.01.016) — Stabile Standardversion
 - **Community-Version** (PBOXQT1.0V202202.00.005) — Community-erweiterte Version
@@ -53,6 +54,7 @@ Wählen Sie die passende Version basierend auf Ihrer Broker-Umgebung:
 
 | Broker | Version | Merkmale | Empfohlen für |
 |--------|---------|----------|---------------|
+| **Shanxi Securities** | V202 | Vollständige Funktionen, neueste Version, Python 3.11 | Professioneller Handel, vollständige API benötigt |
 | **Dongguan Securities** | V041 | Neueste Funktionen, volle Unterstützung | Professioneller Handel, neueste Features benötigt |
 | **Guosheng Securities** | V016 | Stabil und zuverlässig, Standardfunktionen | Produktionsumgebung, Stabilität bevorzugt |
 | **Community** | V005 | Lernfreundlich, umfangreiche Beispiele | Studium & Forschung, Funktionserkundung |
