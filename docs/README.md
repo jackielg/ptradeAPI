@@ -38,7 +38,7 @@
 
 ## ⚙️ 高级主题
 
--   **[版本差异对比](version-differences.md)**：对比社区版、国盛版、东莞版等不同版本的 API 功能差异
+-   **[版本差异对比](version-differences.md)**：对比社区版、国盛版、东莞版、山西证券版等不同版本的 API 功能差异
 -   **[版本详细信息](versions/)**：各版本的详细功能对比和财务数据差异
 -   **[常见问题 (FAQ)](advanced/faq.md)**：汇总了平台使用、数据、回测、交易等方面的常见问题
 -   **[支持的库](advanced/supported-libraries.md)**：查看平台内建支持的第三方 Python 库列表
