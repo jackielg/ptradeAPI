@@ -9,7 +9,8 @@ PTrade 平台 API 参考文档，包含中英文版本及券商版本差异。�
 
 ## Out of Scope
 - 不自动生成或修改任何文档内容
-- 不自动推送到远程仓库
+- IMPORTANT: 永远不要推送到 upstream (kay-ou) 仓库，只允许 push origin (jackielg)
+- 不自动推送到远程仓库（需用户确认后才能 push origin）
 
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
