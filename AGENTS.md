@@ -1,3 +1,55 @@
+# AGENTS.md — ptradeAPI
+
+## 定位
+PTrade 平台 API 参考文档（手动维护），是 SimTradeLab 沙箱实现和策略开发的"金标准"。
+包含中英文版本、券商版本差异、行业概念数据说明。
+
+## 项目类型
+**参考文档项目** — 本目录以 Markdown 文档为主，**没有可执行 Python 代码**。
+仅 `check_links.py`（链接检查）和 `example.py`（最小示例）两个工具脚本。
+
+## 关键命令
+- 检查链接: `python check_links.py`
+
+## 内容结构
+- `docs/README.md` — 文档入口
+- `docs/getting-started/` — 新手入门
+- `docs/api-reference/` — API 参考（中文）
+- `docs/api-reference-en/` — API 参考（英文）
+- `docs/api-classification.md` — API 分类
+- `docs/industry-concept-data.md` — 行业/概念数据
+- `docs/version-differences.md` — 券商版本差异
+- `docs/advanced/` — 高级主题
+- `docs/original/` — 原始抓取的官方文档
+- `docs/versions/` — 历次抓取版本快照
+- `docs/examples.md` — 使用示例
+- `example.py` — 最小 Python 示例
+- `README.md` / `README_CN.md` / `README_DE.md` — 项目说明
+
+## 规则
+
+### 文档维护
+- 本目录为**参考文档**，**不自动修改**
+- 新增/更新 API 必须基于 PTrade 官方最新发布
+- 策略开发时参考本目录 + `SimTradeLab/docs/PTrade_API_Complete_Reference.md`
+- 官方文档原文保留在 `docs/original/`，编辑过的版本在 `docs/api-reference/`
+
+### 跨项目角色
+- 本目录是 PTrade API 的"事实标准"
+- SimTradeLab 的 ptrade/ 沙箱实现必须与本文档**对齐**
+- SimTradeData 的 `field_mappings.py` 必须映射到本文档定义的 PTrade 列名
+- 三项目对 PTrade API 的理解必须**统一**
+
+### 工具脚本
+- `check_links.py` 用于检查文档内链完整性
+- `example.py` 是最小调用示例，运行前需先安装 SimTradeLab
+
+## Out of Scope
+- 🚫 永远不要推送到 upstream (kay-ou) 仓库
+- 🚫 不自动生成或修改任何文档内容（除非用户明确要求）
+- 不自动推送到远程仓库（需用户确认后才能 push origin）
+
+
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 
